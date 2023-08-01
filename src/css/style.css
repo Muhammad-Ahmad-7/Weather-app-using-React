@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+
+.navbar {
+    font-family: 'poppins', sans-serif;
+    background-color: #1600e9;
+    background-image: linear-gradient(160deg, #1600e9 0%, #5f58de 100%);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-link {
+    font-family: 'ubuntu', sans-serif;
+}
+
+.search-bar {
+    width: 70%;
+    padding: 10px;
+    border: none;
+}
+
+.main {
+    padding-top: 90px;
+    background-color: #0093E9;
+    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.btn {
+    width: 90px;
+}
+
+.maincard {
+    /* margin-left: 20px; */
+    font-family: 'ubuntu', 'roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px !important;
+}
+
+.maincard>* {
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid black; */
+}
+
+.location-name {
+    color: white;
+    font-family: 'ubuntu', 'roboto', sans-serif;
+    font-size: 2rem;
+    margin-inline: 5px;
+}
+
+.name {
+    margin-inline: 5px;
+}
+
+.wi {
+    font-size: 150px;
+}
+
+.font {
+    font-size: 2rem;
+    color: white;
+}
+
+.footer {
+    background-color: #1600e9;
+    background-image: linear-gradient(160deg, #1600e9 0%, #5f58de 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    color: white;
+}
+
+@media screen and (max-width: 570px) {
+    .maincard {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .footer {
+        position: relative;
+        bottom: -5px;
+    }
+}
